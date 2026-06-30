@@ -22,7 +22,7 @@ class ComparisonScreen extends StatelessWidget {
             const SizedBox(height: 16),
 
             // TODO: Grafica de barras comparando R2 de cada modelo
-            Expanded(
+            const Expanded(
               child: FeatureChart(
                 // Pasar datos de comparacion aqui
                 title: 'Comparacion R² Score',
